@@ -1,20 +1,20 @@
 # Employee Attendance Analytics Dashboard
 
-This folder contains the visual dashboard developed in **Looker Studio** for analyzing employee attendance, productivity, working patterns, overtime, leave records, and workforce distribution for **Bangalore, Q1 2026**.
+This folder contains the interactive **Employee Attendance Analytics Dashboard** developed using **Looker Studio** for analyzing employee attendance, working hours, productivity, overtime, leave records, work modes, shifts, and department-level workforce patterns for **Bangalore, Q1 2026**.
 
-The dashboard is presented across three pages. Each page focuses on a different aspect of employee attendance and workforce analytics.
+The dashboard consists of three pages, with each page focusing on a different aspect of employee attendance and workforce analytics.
 
 ---
 
 ## Live Looker Studio Dashboard
 
-The interactive version of the dashboard can be accessed through the link below:
+The interactive dashboard can be accessed using the link below:
 
-**[Open Employee Attendance Analytics Dashboard in Looker Studio](https://datastudio.google.com/reporting/ef773827-657e-4f0d-bcf9-c6d3325d0f47)**
+[Open Employee Attendance Analytics Dashboard in Looker Studio](https://datastudio.google.com/reporting/ef773827-657e-4f0d-bcf9-c6d3325d0f47)
 
-> **Note:** The Looker Studio report may require appropriate viewing access. If the report does not open, the report owner should enable the required sharing/viewing permissions.
+> **Note:** The Looker Studio report may require appropriate viewing permissions. If the dashboard does not open, the report owner should enable the required sharing/viewing access.
 
-The screenshots below are included so that the dashboard can also be viewed directly from this GitHub repository.
+The screenshots below provide a static view of the dashboard directly within this GitHub repository.
 
 ---
 
@@ -26,11 +26,11 @@ The screenshots below are included so that the dashboard can also be viewed dire
 
 ### Purpose
 
-Page 1 provides an overall view of employee attendance, working hours, productivity, late arrivals, early exits, overtime, work mode, office location, and employee distribution.
+Page 1 provides an overall summary of employee attendance, working hours, productivity, work mode, office location, late arrivals, early exits, overtime, and employee distribution.
 
 ### Filters
 
-The page includes filters for:
+The page provides interactive filters for:
 
 - Attendance Month
 - Department
@@ -42,8 +42,6 @@ The page includes filters for:
 - Attendance Status
 - Gender
 - Weekday
-
-These filters allow the dashboard to be viewed for selected employee groups or working conditions.
 
 ### Key Performance Indicators
 
@@ -63,13 +61,13 @@ These filters allow the dashboard to be viewed for selected employee groups or w
 Shows the distribution of attendance records across Work From Office, Work From Home, Not Applicable, and Client Site.
 
 **Overall Productivity Ratio**  
-Displays the overall productivity ratio as a gauge, with the dashboard showing approximately **88.3%**.
+Displays the overall productivity ratio using a gauge chart. The dashboard shows an overall productivity ratio of approximately **88.3%**.
 
 **Attendance Records by Office Location**  
-Compares attendance records across office locations such as Koramangala HQ, Whitefield Tech Park, HSR Layout Hub, Indiranagar Annexe, and Electronic City Campus.
+Shows the distribution of attendance records across different office locations, including Koramangala HQ, Whitefield Tech Park, HSR Layout Hub, Indiranagar Annexe, and Electronic City Campus.
 
 **Employee Distribution by Employment Type & Shift Type**  
-Shows the distribution of employees across employment types and different shift types.
+Provides a detailed table showing employee counts across employment types and different shift types.
 
 ---
 
@@ -79,11 +77,11 @@ Shows the distribution of employees across employment types and different shift 
 
 ### Purpose
 
-Page 2 focuses on shift-wise late arrival, overtime, net productive hours, and workforce distribution across departments.
+Page 2 focuses on shift-wise late arrivals, overtime hours, the relationship between overtime and net productive hours, and workforce distribution across departments.
 
 ### Filters
 
-The page includes filters for:
+The page provides filters for:
 
 - Attendance Month
 - Department
@@ -101,22 +99,16 @@ The page includes filters for:
 ### Visualizations
 
 **Average Late Arrival by Shift Type**  
-Compares average late-arrival minutes across the available shift types:
-
-- Early (08:00–17:00)
-- General (09:30–18:30)
-- Flexible (10:30–19:30)
-- Mid (11:00–20:00)
-- Late/US Overlap (14:00–23:00)
+Compares average late-arrival minutes across different shift types, including Early, General, Flexible, Mid, and Late/US Overlap shifts.
 
 **Impact of Overtime on Net Productive Hours**  
-A scatter plot is used to examine the relationship between overtime hours and net productive hours. The plotted employee records show how these two numerical variables vary together.
+A scatter plot is used to visualize the relationship between overtime hours and net productive hours across employee attendance records.
 
 **Average Overtime Hours by Department**  
-Compares average overtime hours across departments.
+Compares the average overtime hours recorded across different departments.
 
 **Workforce Distribution by Department**  
-A treemap is used to visualize the relative workforce distribution across departments.
+A treemap is used to represent the relative workforce distribution across departments, allowing department sizes to be compared visually.
 
 ---
 
@@ -126,11 +118,11 @@ A treemap is used to visualize the relative workforce distribution across depart
 
 ### Purpose
 
-Page 3 provides a detailed view of leave records, employment type, attendance records by department, and average net productive hours by department.
+Page 3 provides a detailed view of leave records, employment type distribution, department-level attendance records, and average net productive hours by department.
 
 ### Filters
 
-The page includes filters for:
+The page provides filters for:
 
 - Employment Type
 - Office Location
@@ -149,69 +141,58 @@ The page includes filters for:
 ### Visualizations
 
 **Leave Type Distribution**  
-Shows the number of records for different leave categories, including:
-
-- Casual Leave
-- Sick Leave
-- Earned Leave
-- Loss of Pay
-- Work From Home Comp-Off
-- Parental Leave
-- Bereavement Leave
-- Marriage Leave
+Shows the number of leave records across different leave categories, including Casual Leave, Sick Leave, Earned Leave, Loss of Pay, Work From Home Comp-Off, Parental Leave, Bereavement Leave, and Marriage Leave.
 
 **Employment Type Distribution**  
-A donut chart shows the distribution of employees across Full-Time, Contract, Intern, and Part-Time employment types.
+A donut chart presents the distribution of employees across Full-Time, Contract, Intern, and Part-Time employment types.
 
 **Attendance Records by Department**  
-Compares the number of attendance records across departments.
+Compares the number of attendance records across different departments.
 
 **Average Net Productive Hours by Department**  
-Compares average net productive hours across departments.
+Compares average net productive hours across departments to provide a department-level view of productivity.
 
 ---
 
 # Dashboard Design and Functionality
 
-The dashboard was designed to provide interactive exploration of employee attendance data through:
+The dashboard was designed to provide interactive exploration of employee attendance and productivity data through:
 
 - KPI cards for key performance indicators
 - Interactive filters for employee and attendance segments
-- Bar charts for department and category comparisons
+- Bar charts for category and department comparisons
 - Pie and donut charts for distribution analysis
-- A gauge chart for overall productivity ratio
-- A scatter plot for overtime and productivity analysis
-- A treemap for workforce distribution
-- A detailed table for employment type and shift distribution
+- Gauge chart for overall productivity ratio
+- Scatter plot for overtime and productivity analysis
+- Treemap for workforce distribution
+- Detailed tables for employee and shift distributions
 
-The dashboard supports both high-level monitoring and detailed department, shift, employment, and attendance analysis.
+The three dashboard pages together provide both an overall summary and detailed views of attendance, productivity, overtime, leave, shifts, work modes, employment types, and departments.
 
 ---
 
 # Tools Used
 
 - **Looker Studio** — Dashboard development and visualization
-- **Google Sheets / CSV data** — Data source and prepared dataset
+- **Google Sheets / CSV** — Data source and prepared dataset
 - **Python / Pandas** — Data cleaning and preprocessing
-- **Statistical analysis** — Used in the analysis stage to examine relationships and differences in the attendance data
+- **Statistical Analysis** — Analysis of relationships and differences within the attendance data
 
 ---
 
-# Dashboard Screenshots
+# Dashboard Files
 
-| Page | Description |
+| File | Description |
 |---|---|
-| Page 1 | Attendance and Productivity Overview |
-| Page 2 | Shift, Overtime and Department Analysis |
-| Page 3 | Leave and Department-Level Analysis |
-
-The image files are stored directly in this folder so they can be viewed from the GitHub repository without opening the external dashboard.
+| `Employee_Attendance_Dashboard_Page1.png` | Attendance and productivity overview |
+| `Employee_Attendance_Dashboard_Page2.png` | Shift, overtime, and department analysis |
+| `Employee_Attendance_Dashboard_Page3.png` | Leave and department-level analysis |
 
 ---
 
 # Project Workflow
 
-The dashboard is part of a larger Employee Attendance Analytics workflow:
+The dashboard is part of the following Employee Attendance Analytics workflow:
 
 ```text
 Raw Dataset
@@ -223,3 +204,5 @@ Feature Engineering
 Data Analysis & Statistical Testing
     ↓
 Looker Studio Dashboard
+    ↓
+Final Reports and Visualizations
