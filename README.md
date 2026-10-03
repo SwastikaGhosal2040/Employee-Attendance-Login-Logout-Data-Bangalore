@@ -89,7 +89,7 @@ The Employee Attendance Analytics Dashboard was developed using Looker Studio an
 
 ![Employee Attendance Dashboard — Page 1](3_Dashboards/Employee_Attendance_Dashboard_Page1.png)
 
-### Page 2 — Shift-wise Attendance, Productivity & Overtime Analysis
+### Page 2 — Productivity & Overtime Analysis
 
 ![Employee Attendance Dashboard — Page 2](3_Dashboards/Employee_Attendance_Dashboard_Page2.png)
 
