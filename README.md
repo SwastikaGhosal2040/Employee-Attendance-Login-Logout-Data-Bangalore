@@ -85,7 +85,7 @@ Employee-Attendance-Login-Logout-Data-Bangalore/
 
 The Employee Attendance Analytics Dashboard was developed using Looker Studio and consists of three pages covering attendance, productivity, overtime, workforce distribution, leave patterns, and departmental analysis.
 
-### Page 1 — Dashboard Overview
+### Page 1 — Attendance and Productivity Overview
 
 ![Employee Attendance Dashboard — Page 1](3_Dashboards/Employee_Attendance_Dashboard_Page1.png)
 
