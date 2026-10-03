@@ -76,3 +76,18 @@ Employee-Attendance-Login-Logout-Data-Bangalore/
 │   └── README.md
 │
 └── README.md
+---
+
+## Dashboard Preview
+
+### Page 1 — Dashboard Overview
+
+![Employee Attendance Dashboard — Page 1](3_Dashboards/Employee_Attendance_Dashboard_Page1.png)
+
+### Page 2 — Productivity and Overtime Analysis
+
+![Employee Attendance Dashboard — Page 2](3_Dashboards/Employee_Attendance_Dashboard_Page2.png)
+
+### Page 3 — Attendance and Workforce Analysis
+
+![Employee Attendance Dashboard — Page 3](3_Dashboards/Employee_Attendance_Dashboard_Page3.png)
