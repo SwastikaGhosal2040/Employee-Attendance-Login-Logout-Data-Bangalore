@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains the Jupyter Notebook used to perform exploratory data analysis, statistical analysis, and visualization on the cleaned employee attendance dataset.
+This folder contains the Jupyter Notebook used to perform exploratory data analysis, statistical analysis, and visualization on the cleaned Employee Attendance dataset.
 
 The analysis focuses on employee attendance patterns, working hours, productivity, work modes, departments, employment types, and other workplace-related variables.
 
@@ -10,327 +10,279 @@ The analysis focuses on employee attendance patterns, working hours, productivit
 
 ## Analysis Notebook
 
-**Notebook:** `Employee_DataAnalysis.ipynb`
+### Employee Data Analysis
 
-The notebook was developed using Python and Google Colab.
-
-The complete analysis workflow, visualizations, statistical tests, and interpretations are documented in the notebook.
-
-### Google Colab
-
-The complete analysis notebook is also available in Google Colab:
+The `Employee_DataAnalysis.ipynb` notebook contains the complete data analysis workflow, including exploratory analysis, visualization, correlation analysis, and statistical hypothesis testing.
 
 [Open Employee Data Analysis Notebook in Google Colab](https://colab.research.google.com/drive/1OausWxHCzMGD6Le33BJ2RbxtAodRh2bI?usp=sharing)
 
 ---
 
-## Input Dataset
+## Analysis Workflow
 
-The analysis is performed using the cleaned employee attendance dataset:
+The analysis covers the following areas:
 
-`employee_attendance_dashboard_cleaned_new9.csv`
-
-The cleaned dataset contains:
-
-- **Records:** 55,374
-- **Columns:** 41
-- **Unique Employees:** 980
-- **Departments:** 10
-- **Time Period:** Q1 2026
-- **Location:** Bangalore
-- **Date Range:** 2 January 2026 to 31 March 2026
-
----
-
-# Analysis Workflow
-
-The notebook follows a structured analysis workflow consisting of eight major steps.
+- Dataset inspection
+- Data type identification
+- Missing value analysis
+- Numerical summary statistics
+- Distribution analysis
+- Bivariate analysis
+- Numerical vs categorical analysis
+- Categorical analysis
+- Multivariate analysis
+- Pearson correlation analysis
+- Independent samples t-test
+- One-Way ANOVA
+- Chi-Square test of independence
 
 ---
 
-## Step 01 — Basic Information About the Dataset
+# Analysis Outputs
 
-The cleaned employee attendance dataset is loaded and its basic structure is examined.
-
-The following information is checked:
-
-- Number of rows
-- Number of columns
-- First five records
-- Data types of columns
-- Basic structure of the dataset
-
-The dataset is loaded into a Pandas DataFrame named `df`.
+The following visualizations were generated from the Employee Data Analysis notebook. The images are stored in the `4_Reports/Analysis_Outputs` folder.
 
 ---
 
-## Step 02 — Identify Column Types
+## 1. Distribution and Statistical Analysis
 
-The columns are categorized according to their data types.
+### 1. Analysis 01 — Distributions
 
-The following types of columns are identified:
+![Analysis 01 - Distributions](../4_Reports/Analysis_Outputs/Analysis_01_Distributions.png)
 
-### Numerical Columns
-
-Numerical columns are identified using their numerical data types.
-
-These columns are used for statistical calculations and numerical analysis.
-
-### Categorical Columns
-
-Categorical columns are identified to analyze employee groups, departments, work modes, attendance status, employment types, and other categorical information.
-
-### Date/Time Columns
-
-Date and time columns are identified for temporal analysis.
-
-These include variables such as:
-
-- `date_of_joining`
-- `attendance_date`
-- `login_timestamp`
-- `logout_timestamp`
-
-### ID Columns
-
-Identifier columns are identified separately, including:
-
-- `attendance_id`
-- `employee_id`
-
-ID columns are not treated as analytical numerical variables.
+This analysis presents the distributions of important numerical variables in the employee attendance dataset. Histograms are used to examine the spread, concentration, and distribution patterns of attendance-related measures.
 
 ---
 
-## Step 03 — Checking Data Types and Missing Values
+### 2. Analysis 01 — Distributions Part 2
 
-The data types and missing values are examined separately for:
+![Analysis 01 - Distributions Part 2](../4_Reports/Analysis_Outputs/Analysis_01_Distributions_Part2.png)
 
-- Numerical columns
-- Categorical columns
-- Date/Time columns
-- ID columns
-
-This step helps verify the data structure and identify missing values before performing further analysis.
+This analysis provides additional distribution visualizations for numerical attendance and productivity variables. It helps examine variation and distribution patterns of employee work-related measures.
 
 ---
 
-## Step 04 — Numerical Summary Statistics
+### 3. Analysis 02 — Boxplots
 
-Descriptive statistics are calculated for the selected numerical variables.
+![Analysis 02 - Boxplots](../4_Reports/Analysis_Outputs/Analysis_02_Boxplots.png)
 
-The analysis includes:
-
-- Count
-- Mean
-- Standard deviation
-- Minimum
-- 25th percentile
-- Median
-- 75th percentile
-- Maximum
-- Mode
-- Skewness
-- Kurtosis
-
-ID-like numerical columns are excluded from statistical analysis because their numerical values represent identifiers rather than measurable quantities.
+Boxplots are used to examine the central tendency, spread, and potential outliers in important numerical variables such as working hours, break duration, late arrival, early exit, and overtime.
 
 ---
 
-# Step 05 — Univariate Analysis
+### 4. Analysis 03 — Statistical Summary
 
-Univariate analysis is performed to study individual variables separately.
+![Analysis 03 - Statistical Summary](../4_Reports/Analysis_Outputs/Analysis_03_Statistical_Summary.png)
 
-The following analyses are included:
-
-## 5.1 — Distribution of Numerical Variables
-
-Histograms are used to examine the distributions of important numerical variables such as:
-
-- `total_hours_worked`
-- `break_duration_mins`
-- `net_productive_hours`
-- `late_arrival_mins`
-- `early_exit_mins`
-- `overtime_hours`
-- `productivity_ratio`
-
-## 5.2 — Boxplot Analysis of Numerical Variables
-
-Boxplots are used to examine:
-
-- Distribution
-- Median
-- Quartiles
-- Variability
-- Potential outliers
-
-for selected numerical variables.
-
-## 5.3 — Statistical Summary of Numerical Variables
-
-A statistical summary is created containing:
-
-- Mean
-- Median
-- Standard deviation
-- Mode
-- Skewness
-- Kurtosis
-
-## 5.4 — Categorical Variable Analysis
-
-Categorical variables are analyzed using frequency-based visualizations.
-
-The analysis includes:
-
-- Department distribution
-- Work mode distribution
-- Attendance status distribution
+This analysis provides descriptive statistical summaries for numerical variables using measures such as mean, median, standard deviation, mode, skewness, and kurtosis.
 
 ---
 
-# Step 06 — Bivariate Analysis
+### 5. Analysis 04 — Focused Statistics
 
-Bivariate analysis is used to examine relationships between two variables.
+![Analysis 04 - Focused Statistics](../4_Reports/Analysis_Outputs/Analysis_04_Focused_Statistics.png)
 
-The analysis is divided into three categories.
-
-## 6.1 — Numerical vs Numerical
-
-The following relationships are examined:
-
-### 6.1.1 — Total Hours Worked vs Net Productive Hours
-
-A scatter plot and Pearson correlation are used to examine the relationship between total hours worked and net productive hours.
-
-### 6.1.2 — Overtime Hours vs Net Productive Hours
-
-The relationship between overtime hours and net productive hours is examined.
-
-### 6.1.3 — Break Duration vs Productivity Ratio
-
-The relationship between break duration and productivity ratio is analyzed.
-
-### 6.1.4 — Late Arrival Minutes vs Total Hours Worked
-
-The relationship between late arrival and total hours worked is examined.
-
-### 6.1.5 — Early Exit Minutes vs Net Productive Hours
-
-The relationship between early exit minutes and net productive hours is analyzed.
+This analysis provides focused statistical information for selected numerical variables and supports a detailed understanding of employee working hours, productivity, attendance behavior, and related measures.
 
 ---
 
-## 6.2 — Numerical vs Categorical
+### 6. Analysis 05 — Categorical Distributions
 
-Numerical variables are compared across categorical groups.
+![Analysis 05 - Categorical Distributions](../4_Reports/Analysis_Outputs/Analysis_05_Categorical_Distributions.png)
 
-The following comparisons are performed:
-
-### 6.2.1 — Late Arrival Minutes vs Department
-
-Late arrival patterns are compared across departments.
-
-### 6.2.2 — Net Productive Hours vs Work Mode
-
-Net productive hours are compared across different work modes.
-
-### 6.2.3 — Net Productive Hours vs Department
-
-Net productive hours are compared across departments.
-
-### 6.2.4 — Overtime Hours vs Department
-
-Overtime hours are compared across departments.
-
-### 6.2.5 — Productivity Ratio vs Employment Type
-
-Productivity ratio is compared across different employment types.
+This analysis examines the distribution of important categorical variables such as department, work mode, and attendance status.
 
 ---
 
-## 6.3 — Categorical vs Categorical
+# 2. Bivariate Analysis
 
-Cross-tabulation and 100% stacked bar charts are used to examine relationships between categorical variables.
+### 7. Analysis 06 — Total Hours vs Net Productive Hours
 
-The following relationships are analyzed:
+![Analysis 06 - Total Hours vs Net Productive Hours](../4_Reports/Analysis_Outputs/Analysis_06_Total_vs_Net_Productive.png)
 
-### 6.3.1 — Department vs Work Mode
-
-The distribution of work modes is compared across departments.
-
-### 6.3.2 — Department vs Attendance Status
-
-Attendance status proportions are compared across departments.
-
-### 6.3.3 — Shift Type vs Attendance Status
-
-Attendance status proportions are compared across different shift types.
-
-### 6.3.4 — Employment Type vs Work Mode
-
-Work mode composition is compared across employment types.
+This analysis examines the relationship between total hours worked and net productive hours using a scatter plot and Pearson correlation analysis.
 
 ---
 
-# Step 07 — Multivariate Analysis
+### 8. Analysis 07 — Overtime vs Net Productive Hours
 
-Multivariate analysis is used to examine relationships among multiple variables simultaneously.
+![Analysis 07 - Overtime vs Net Productive Hours](../4_Reports/Analysis_Outputs/Analysis_07_Overtime_vs_Net_Productive.png)
 
-The following techniques are included:
-
-## 7.1 — Pair Plot
-
-A pair plot is created using selected numerical variables:
-
-- `total_hours_worked`
-- `break_duration_mins`
-- `net_productive_hours`
-- `late_arrival_mins`
-
-The pair plot is used to examine relationships, distributions, trends, and potential outliers.
-
-A sample of up to 800 records is used for improved readability.
-
-## 7.2 — Correlation Heatmap
-
-A correlation heatmap is created using:
-
-- `total_hours_worked`
-- `break_duration_mins`
-- `net_productive_hours`
-- `late_arrival_mins`
-- `early_exit_mins`
-- `overtime_hours`
-- `tenure_days`
-
-The heatmap provides an overall view of the strength and direction of linear relationships among the selected numerical variables.
-
-## 7.3 — Grouped Box Plot
-
-A grouped box plot is used to examine late arrival minutes across:
-
-- Department
-- Work Mode
-
-The analysis focuses on the top five departments based on the number of records.
-
-## 7.4 — Net Productive Hours Distribution by Department
-
-A faceted histogram is used to compare the distribution of net productive hours across the top five departments.
-
-## 7.5 — Multivariate Analysis Summary
-
-The multivariate analysis combines numerical and categorical variables to provide a broader understanding of employee working patterns and productivity.
+This analysis examines the relationship between overtime hours and net productive hours to explore productivity patterns associated with overtime.
 
 ---
 
-# Step 08 — Hypothesis Testing
+### 9. Analysis 08 — Productivity Ratio vs Break Duration
 
-Hypothesis testing is performed to determine whether observed relationships or differences are statistically significant.
+![Analysis 08 - Productivity Ratio vs Break Duration](../4_Reports/Analysis_Outputs/Analysis_08_Productivity_Ratio_vs_Break_Duration.png)
 
-The significance level used in the hypothesis tests is:
+This analysis examines the relationship between break duration and productivity ratio.
 
-```text
-α = 0.05
+---
+
+### 10. Analysis 09 — Total Hours vs Late Arrival
+
+![Analysis 09 - Total Hours vs Late Arrival](../4_Reports/Analysis_Outputs/Analysis_09_Total_Hours_vs_Late_Arrival.png)
+
+This analysis examines the relationship between total hours worked and late arrival minutes.
+
+---
+
+### 11. Analysis 10 — Net Productive Hours vs Early Exit
+
+![Analysis 10 - Net Productive Hours vs Early Exit](../4_Reports/Analysis_Outputs/Analysis_10_Net_Productive_vs_Early_Exit.png)
+
+This analysis examines the relationship between early exit minutes and net productive hours.
+
+---
+
+# 3. Numerical vs Categorical Analysis
+
+### 12. Analysis 11 — Late Arrival by Department
+
+![Analysis 11 - Late Arrival by Department](../4_Reports/Analysis_Outputs/Analysis_11_Late_Arrival_by_Department.png)
+
+This analysis compares late arrival behavior across different departments.
+
+---
+
+### 13. Analysis 12 — Net Productive Hours by Work Mode
+
+![Analysis 12 - Net Productive Hours by Work Mode](../4_Reports/Analysis_Outputs/Analysis_12_Net_Productive_by_Work_Mode.png)
+
+This analysis compares net productive hours across different work modes.
+
+---
+
+### 14. Analysis 13 — Net Productive Hours by Department
+
+![Analysis 13 - Net Productive Hours by Department](../4_Reports/Analysis_Outputs/Analysis_13_Net_Productive_by_Department.png)
+
+This analysis compares average net productive hours across departments and provides a department-level view of productive working time.
+
+---
+
+### 15. Analysis 14 — Overtime Hours by Department
+
+![Analysis 14 - Overtime Hours by Department](../4_Reports/Analysis_Outputs/Analysis_14_Overtime_Hours_by_Department.png)
+
+This analysis compares average overtime hours across departments and provides a department-level view of overtime patterns.
+
+---
+
+### 16. Analysis 15 — Productivity Ratio by Employment Type
+
+![Analysis 15 - Productivity Ratio by Employment Type](../4_Reports/Analysis_Outputs/Analysis_15_Productivity_Ratio_by_Employment_Type.png)
+
+This analysis compares productivity ratio across different employment types, including full-time, contract, intern, and part-time employees.
+
+---
+
+# 4. Categorical Analysis
+
+### 17. Analysis 16 — Work Mode Composition by Department
+
+![Analysis 16 - Work Mode Composition by Department](../4_Reports/Analysis_Outputs/Analysis_16_Work_Mode_Composition_by_Department.png)
+
+This analysis examines how different work modes are distributed across departments.
+
+---
+
+### 18. Analysis 17 — Attendance Status Composition by Department
+
+![Analysis 17 - Attendance Status Composition by Department](../4_Reports/Analysis_Outputs/Analysis_17_Attendance_Status_Composition_by_Department.png)
+
+This analysis examines attendance status across departments, including Present, Half Day, and On Leave categories.
+
+---
+
+### 19. Analysis 18 — Attendance Status Composition by Shift Type
+
+![Analysis 18 - Attendance Status Composition by Shift Type](../4_Reports/Analysis_Outputs/Analysis_18_Attendance_Status_Composition_by_Shift_Type.png)
+
+This analysis examines attendance status across different shift types and provides a comparison of attendance patterns.
+
+---
+
+### 20. Analysis 19 — Work Mode Composition by Employment Type
+
+![Analysis 19 - Work Mode Composition by Employment Type](../4_Reports/Analysis_Outputs/Analysis_19_Work_Mode_Composition_by_Employment_Type.png)
+
+This analysis examines the composition of work modes across different employment types.
+
+---
+
+# 5. Multivariate Analysis
+
+### 21. Analysis 20 — Pair Plot of Important Numerical Variables
+
+![Analysis 20 - Pair Plot of Important Numerical Variables](../4_Reports/Analysis_Outputs/Analysis_20_Pair_Plot_Important_Numerical_Variables.png)
+
+The pair plot provides a combined view of relationships and distributions among important numerical variables. It helps identify patterns and relationships between multiple variables.
+
+---
+
+### 22. Analysis 21 — Correlation Heatmap of Numerical Variables
+
+![Analysis 21 - Correlation Heatmap of Numerical Variables](../4_Reports/Analysis_Outputs/Analysis_21_Correlation_Heatmap_Numerical_Variables.png)
+
+The correlation heatmap presents correlation coefficients between numerical variables and provides an overview of the strength and direction of their linear relationships.
+
+---
+
+### 23. Analysis 22 — Late Arrival by Department and Work Mode
+
+![Analysis 22 - Late Arrival by Department and Work Mode](../4_Reports/Analysis_Outputs/Analysis_22_Late_Arrival_by_Department_and_Work_Mode.png)
+
+This analysis examines late arrival across departments while also considering work mode, providing a combined view of departmental and work-arrangement patterns.
+
+---
+
+### 24. Analysis 23 — Net Productive Hours Distribution by Top 5 Departments
+
+![Analysis 23 - Net Productive Hours Distribution by Top 5 Departments](../4_Reports/Analysis_Outputs/Analysis_23_Net_Productive_Hours_Distribution_by_Department_Top5.png)
+
+This analysis compares the distribution of net productive hours across the top five departments.
+
+---
+
+# 6. Statistical and Hypothesis Testing
+
+### 25. Analysis 24 — Pearson Correlation Test
+
+![Analysis 24 - Pearson Correlation Test](../4_Reports/Analysis_Outputs/Analysis_24_Pearson_Correlation_Test.png)
+
+The Pearson correlation test measures the strength and direction of the linear relationship between selected numerical variables. The analysis reports the correlation coefficient and p-value.
+
+---
+
+### 26. Analysis 25 — Independent T-Test by Work Mode
+
+![Analysis 25 - Independent T-Test by Work Mode](../4_Reports/Analysis_Outputs/Analysis_25_Independent_T_Test_Work_Mode.png)
+
+The independent samples t-test compares the mean of a numerical variable between two work-mode groups. Levene's test is also considered for variance equality.
+
+---
+
+### 27. Analysis 26 — One-Way ANOVA by Department
+
+![Analysis 26 - One-Way ANOVA by Department](../4_Reports/Analysis_Outputs/Analysis_26_One_Way_ANOVA_Department.png)
+
+The one-way ANOVA test examines whether the mean of a numerical variable differs across multiple department groups. Levene's test is also used to assess variance homogeneity.
+
+---
+
+### 28. Analysis 27 — Chi-Square Test: Department and Work Mode
+
+![Analysis 27 - Chi-Square Test: Department and Work Mode](../4_Reports/Analysis_Outputs/Analysis_27_Chi_Square_Department_Work_Mode.png)
+
+The Chi-Square test of independence examines the association between department and work mode by comparing the distribution of work modes across departments.
+
+---
+
+# Project Navigation
+
+- [1. Dataset](../1_Dataset/)
+- [2. Data Analysis](./)
+- [3. Dashboards](../3_Dashboards/)
+- [4. Reports](../4_Reports/)
