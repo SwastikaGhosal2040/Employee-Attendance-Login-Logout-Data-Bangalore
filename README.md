@@ -22,6 +22,10 @@ The project follows a complete data analytics workflow:
 
 ---
 
+![Employee Attendance Analytics Cover Photo](CoverPhoto_Employee.png)
+
+---
+
 ## Dataset
 
 The project uses an Employee Attendance dataset covering Bangalore for Q1 2026.
@@ -46,6 +50,8 @@ The dataset contains employee information, attendance records, login and logout 
 
 ```text
 Employee-Attendance-Login-Logout-Data-Bangalore/
+│
+├── CoverPhoto_Employee.png
 │
 ├── 1_Dataset/
 │   ├── 1_Raw_Dataset/
@@ -76,23 +82,3 @@ Employee-Attendance-Login-Logout-Data-Bangalore/
 │   └── README.md
 │
 └── README.md
-
-```
-
----
-
-## Dashboard Preview
-
-The Employee Attendance Analytics Dashboard was developed using Looker Studio and consists of three pages covering attendance, productivity, overtime, workforce distribution, leave patterns, and departmental analysis.
-
-### Page 1 — Attendance and Productivity Overview
-
-![Employee Attendance Dashboard — Page 1](3_Dashboards/Employee_Attendance_Dashboard_Page1.png)
-
-### Page 2 — Productivity & Overtime Analysis
-
-![Employee Attendance Dashboard — Page 2](3_Dashboards/Employee_Attendance_Dashboard_Page2.png)
-
-### Page 3 — Attendance and Workforce Analysis
-
-![Employee Attendance Dashboard — Page 3](3_Dashboards/Employee_Attendance_Dashboard_Page3.png)
