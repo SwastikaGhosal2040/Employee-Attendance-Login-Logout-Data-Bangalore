@@ -58,7 +58,7 @@ The dataset contains employee information, attendance records, login and logout 
 
 | File / Resource | Description | Link |
 |---|---|---|
-| Raw Dataset | Original employee attendance dataset for Bangalore, Q1 2026 | [Insert Raw Dataset Link](https://docs.google.com/spreadsheets/d/1jT9biitZJI6d6yCA7TTaTouqdqY65MFXj076heiqV5U/edit?usp=sharing) |
+| Raw Dataset | Original employee attendance dataset for Bangalore, Q1 2026 | [Raw Dataset](https://docs.google.com/spreadsheets/d/1jT9biitZJI6d6yCA7TTaTouqdqY65MFXj076heiqV5U/edit?usp=sharing) |
 | Cleaned Dataset | Cleaned and processed employee attendance dataset used for analysis and dashboard development | [View Cleaned Dataset](PASTE_CLEANED_DATASET_LINK_HERE) |
 | Data Cleaning Notebook (Google Colab) | Notebook containing data cleaning, preprocessing, and feature engineering steps | [View Data Cleaning Notebook](PASTE_DATA_CLEANING_COLAB_LINK_HERE) |
 | Data Analysis Notebook (Google Colab) | Notebook containing exploratory data analysis, visualizations, and statistical analysis | [View Data Analysis Notebook](PASTE_DATA_ANALYSIS_COLAB_LINK_HERE) |
