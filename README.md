@@ -106,3 +106,23 @@ Employee-Attendance-Login-Logout-Data-Bangalore/
 │   └── README.md
 │
 └── README.md
+
+---
+
+## Dashboard Preview
+
+### Page 1 — Attendance and Productivity Overview
+
+![Page 1 - Attendance and Productivity Overview](./3_Dashboards/Employee_Attendance_Dashboard_Page1.png)
+
+### Page 2 — Shift, Overtime and Department Analysis
+
+![Page 2 - Shift, Overtime and Department Analysis](./3_Dashboards/Employee_Attendance_Dashboard_Page2.png)
+
+### Page 3 — Leave and Department-Level Analysis
+
+![Page 3 - Leave and Department-Level Analysis](./3_Dashboards/Employee_Attendance_Dashboard_Page3.png)
+
+---
+
+**Interactive Dashboard:** [View Employee Attendance Analytics Dashboard](https://datastudio.google.com/reporting/ef773827-657e-4f0d-bcf9-c6d3325d0f47)
