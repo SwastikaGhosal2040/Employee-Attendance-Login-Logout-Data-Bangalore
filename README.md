@@ -58,13 +58,13 @@ The dataset contains employee information, attendance records, login and logout 
 
 | File / Resource | Description | Link |
 |---|---|---|
-| Raw Dataset | Original employee attendance dataset for Bangalore, Q1 2026 | [Raw Dataset](https://docs.google.com/spreadsheets/d/1jT9biitZJI6d6yCA7TTaTouqdqY65MFXj076heiqV5U/edit?usp=sharing) |
-| Cleaned Dataset | Cleaned and processed employee attendance dataset used for analysis and dashboard development | [View Cleaned Dataset](PASTE_CLEANED_DATASET_LINK_HERE) |
-| Data Cleaning Notebook (Google Colab) | Notebook containing data cleaning, preprocessing, and feature engineering steps | [View Data Cleaning Notebook](PASTE_DATA_CLEANING_COLAB_LINK_HERE) |
-| Data Analysis Notebook (Google Colab) | Notebook containing exploratory data analysis, visualizations, and statistical analysis | [View Data Analysis Notebook](PASTE_DATA_ANALYSIS_COLAB_LINK_HERE) |
-| Kaggle Notebook | Notebook covering both data cleaning and data analysis | [View Kaggle Notebook](PASTE_KAGGLE_NOTEBOOK_LINK_HERE) |
+| Raw Dataset | Original employee attendance dataset for Bangalore, Q1 2026 | [View Raw Dataset](https://docs.google.com/spreadsheets/d/1jT9biitZJI6d6yCA7TTaTouqdqY65MFXj076heiqV5U/edit?usp=sharing) |
+| Cleaned Dataset | Cleaned and processed employee attendance dataset used for analysis and dashboard development | [View Cleaned Dataset](https://docs.google.com/spreadsheets/d/1OeTd_wJds3kVfQUhpa9hTu1P_v3u-3dOFZSQnqTcY3A/edit?usp=sharing) |
+| Data Cleaning Notebook (Google Colab) | Notebook containing data cleaning, preprocessing, and feature engineering steps | [View Data Cleaning Notebook](https://colab.research.google.com/drive/1Mz_JOmS14CceyohfSwh79eqbe_-arH9D?usp=sharing) |
+| Data Analysis Notebook (Google Colab) | Notebook containing exploratory data analysis, visualizations, and statistical analysis | [View Data Analysis Notebook](https://colab.research.google.com/drive/1OausWxHCzMGD6Le33BJ2RbxtAodRh2bI?usp=sharing) |
+| Kaggle Notebook | Notebook covering both data cleaning and data analysis | [View Kaggle Notebook](https://www.kaggle.com/code/swastikaghosal/employee-attendance-swastika-ghosal) |
 | Data Analysis Notebook (`.ipynb`) | Jupyter Notebook stored in the GitHub repository for the data analysis workflow | [View Analysis Notebook](PASTE_GITHUB_ANALYSIS_NOTEBOOK_LINK_HERE) |
-| Interactive Dashboard | Looker Studio dashboard presenting attendance, productivity, overtime, workforce, and leave insights | [View Dashboard](PASTE_LOOKER_STUDIO_DASHBOARD_LINK_HERE) |
+| Interactive Dashboard | Looker Studio dashboard presenting attendance, productivity, overtime, workforce, and leave insights | [View Dashboard](https://datastudio.google.com/reporting/ef773827-657e-4f0d-bcf9-c6d3325d0f47) |
 | Dashboard — Page 1 | Attendance and Productivity Overview | [View Page 1](PASTE_DASHBOARD_PAGE1_IMAGE_LINK_HERE) |
 | Dashboard — Page 2 | Shift, Overtime and Department Analysis | [View Page 2](PASTE_DASHBOARD_PAGE2_IMAGE_LINK_HERE) |
 | Dashboard — Page 3 | Leave and Department-Level Analysis | [View Page 3](PASTE_DASHBOARD_PAGE3_IMAGE_LINK_HERE) |
