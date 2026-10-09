@@ -236,3 +236,46 @@ The following categories are used:
 
 ```text
 Productivity Ratio = Net Productive Hours / Total Hours Worked
+```
+
+---
+
+## Data Cleaning Notes
+
+| Column Name | Activities |
+|---|---|
+| Column Names | Removed extra spaces from column headers to maintain consistent naming. |
+| Text Columns | Removed leading and trailing spaces from text values to improve consistency. |
+| `date_of_joining` | Converted the column to datetime format. |
+| `attendance_date` | Converted the column to datetime format. |
+| `login_timestamp` | Converted the column to datetime format. |
+| `logout_timestamp` | Converted the column to datetime format. |
+| `attendance_id` | Examined the identifier column for uniqueness and structure. |
+| `employee_id` | Examined the employee identifier column for uniqueness and structure. |
+| Missing Values | Identified and checked missing values in the dataset. |
+| Duplicate Records | Checked for completely duplicated rows. |
+| Data Types | Examined column data types and converted date/time columns where required. |
+| Unique Values | Examined unique values to understand categorical variables and their possible values. |
+| `Joining_Year` | Extracted the joining year from `date_of_joining`. |
+| `Employee_Tenure_Years` | Created a feature representing employee tenure in years. |
+| `Attendance_Month` | Extracted the month from `attendance_date`. |
+| `Attendance_Weekday` | Extracted the weekday from `attendance_date`. |
+| `Login_Hour` | Extracted the hour from `login_timestamp`. |
+| `Logout_Hour` | Extracted the hour from `logout_timestamp`. |
+| `Late_Arrival_Flag` | Categorized attendance records as `Late` or `On Time`. |
+| `Overtime_Flag` | Categorized records as `Yes` or `No` based on overtime. |
+| `Productivity_Category` | Classified net productive hours as Highly Productive, Moderately Productive, or Low Productive. |
+| `is_late` | Created a binary indicator: `1` for late arrival and `0` for on-time arrival. |
+| `is_early_exit` | Created a binary indicator: `1` for an early exit and `0` otherwise. |
+| `overtime_hours_paid` | Created a feature from overtime information for further analysis. |
+| `productivity_ratio` | Calculated the ratio of net productive hours to total hours worked. |
+
+---
+
+## Output Dataset
+
+The cleaned dataset is saved as:
+
+`employee_attendance_dashboard_cleaned_new9.csv`
+
+It is used for subsequent exploratory data analysis, statistical analysis, visualization, and dashboard development.
