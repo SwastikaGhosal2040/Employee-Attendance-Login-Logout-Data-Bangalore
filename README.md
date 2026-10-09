@@ -58,13 +58,16 @@ The dataset contains employee information, attendance records, login and logout 
 
 | File / Resource | Description | Link |
 |---|---|---|
-| Raw Dataset | Original employee attendance dataset for Bangalore, Q1 2026 | [Insert Raw Dataset Link]([PASTE_RAW_DATASET_LINK_HERE](https://docs.google.com/spreadsheets/d/1jT9biitZJI6d6yCA7TTaTouqdqY65MFXj076heiqV5U/edit?usp=sharing)) |
+| Raw Dataset | Original employee attendance dataset for Bangalore, Q1 2026 | [Insert Raw Dataset Link](PASTE_RAW_DATASET_LINK_HERE) |
 | Cleaned Dataset | Cleaned and processed employee attendance dataset used for analysis and dashboard development | [View Cleaned Dataset](PASTE_CLEANED_DATASET_LINK_HERE) |
 | Data Cleaning Notebook (Google Colab) | Notebook containing data cleaning, preprocessing, and feature engineering steps | [View Data Cleaning Notebook](PASTE_DATA_CLEANING_COLAB_LINK_HERE) |
 | Data Analysis Notebook (Google Colab) | Notebook containing exploratory data analysis, visualizations, and statistical analysis | [View Data Analysis Notebook](PASTE_DATA_ANALYSIS_COLAB_LINK_HERE) |
 | Kaggle Notebook | Notebook covering both data cleaning and data analysis | [View Kaggle Notebook](PASTE_KAGGLE_NOTEBOOK_LINK_HERE) |
 | Data Analysis Notebook (`.ipynb`) | Jupyter Notebook stored in the GitHub repository for the data analysis workflow | [View Analysis Notebook](PASTE_GITHUB_ANALYSIS_NOTEBOOK_LINK_HERE) |
 | Interactive Dashboard | Looker Studio dashboard presenting attendance, productivity, overtime, workforce, and leave insights | [View Dashboard](PASTE_LOOKER_STUDIO_DASHBOARD_LINK_HERE) |
+| Dashboard — Page 1 | Attendance and Productivity Overview | [View Page 1](PASTE_DASHBOARD_PAGE1_IMAGE_LINK_HERE) |
+| Dashboard — Page 2 | Shift, Overtime and Department Analysis | [View Page 2](PASTE_DASHBOARD_PAGE2_IMAGE_LINK_HERE) |
+| Dashboard — Page 3 | Leave and Department-Level Analysis | [View Page 3](PASTE_DASHBOARD_PAGE3_IMAGE_LINK_HERE) |
 
 
 ## Project Structure
