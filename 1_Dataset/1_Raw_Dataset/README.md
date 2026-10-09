@@ -33,30 +33,30 @@ The dataset contains employee information, attendance records, department detail
 
 ## Columns in the Dataset
 
-| Column | Description |
-|---|---|
-| `attendance_id` | Unique identifier for each attendance record |
-| `employee_id` | Unique identifier of the employee |
-| `employee_name` | Name of the employee |
-| `gender` | Gender of the employee |
-| `department` | Department of the employee |
-| `designation` | Job designation of the employee |
-| `employment_type` | Type of employment |
-| `office_location` | Office location of the employee |
-| `date_of_joining` | Date on which the employee joined |
-| `attendance_date` | Date of the attendance record |
-| `shift_type` | Shift assigned to the employee |
-| `attendance_status` | Attendance status of the employee |
-| `work_mode` | Mode in which the employee worked |
-| `login_timestamp` | Employee login date and time |
-| `logout_timestamp` | Employee logout date and time |
-| `total_hours_worked` | Total hours worked by the employee |
-| `break_duration_mins` | Break duration in minutes |
-| `net_productive_hours` | Net productive working hours |
-| `late_arrival_mins` | Number of minutes the employee arrived late |
-| `early_exit_mins` | Number of minutes associated with early exit |
-| `overtime_hours` | Number of overtime hours |
-| `leave_type` | Type of leave associated with the attendance record |
+| Column | Data Type | Description |
+|---|---|---|
+| `attendance_id` | Integer | Unique identifier for each attendance record |
+| `employee_id` | Integer | Unique identifier of the employee |
+| `employee_name` | String | Name of the employee |
+| `gender` | String | Gender of the employee |
+| `department` | String | Department of the employee |
+| `designation` | String | Job designation of the employee |
+| `employment_type` | String | Type of employment |
+| `office_location` | String | Office location of the employee |
+| `date_of_joining` | Date | Date on which the employee joined |
+| `attendance_date` | Date | Date of the attendance record |
+| `shift_type` | String | Shift assigned to the employee |
+| `attendance_status` | String | Attendance status of the employee |
+| `work_mode` | String | Mode in which the employee worked |
+| `login_timestamp` | Datetime | Employee login date and time |
+| `logout_timestamp` | Datetime | Employee logout date and time |
+| `total_hours_worked` | Float | Total hours worked by the employee |
+| `break_duration_mins` | Integer | Break duration in minutes |
+| `net_productive_hours` | Float | Net productive working hours |
+| `late_arrival_mins` | Integer | Number of minutes the employee arrived late |
+| `early_exit_mins` | Integer | Number of minutes associated with early exit |
+| `overtime_hours` | Float | Number of overtime hours |
+| `leave_type` | String | Type of leave associated with the attendance record |
 
 ---
 
