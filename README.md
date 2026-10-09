@@ -113,7 +113,7 @@ Employee-Attendance-Login-Logout-Data-Bangalore/
 
 ### Page 1 — Attendance and Productivity Overview
 
-![Page 1 - Attendance and Productivity Overview](./3_Dashboards/Employee_Attendance_Dashboard_Page1.png)
+![Page 1 - Attendance and Productivity Overview]([./3_Dashboards/Employee_Attendance_Dashboard_Page1.png](https://github.com/SwastikaGhosal2040/Employee-Attendance-Login-Logout-Data-Bangalore/blob/main/3_Dashboards/Employee_Attendance_Dashboard_Page1.png))
 
 ### Page 2 — Shift, Overtime and Department Analysis
 
