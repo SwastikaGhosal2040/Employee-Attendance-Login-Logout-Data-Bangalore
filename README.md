@@ -66,7 +66,7 @@ The dataset contains employee information, attendance records, login and logout 
 | Data Analysis Notebook (`.ipynb`) | Jupyter Notebook stored in the GitHub repository for the data analysis workflow | [View Analysis Notebook](https://github.com/SwastikaGhosal2040/Employee-Attendance-Login-Logout-Data-Bangalore/blob/main/2_Data_Analysis/Employee_DataAnalysis.ipynb) |
 | Interactive Dashboard | Looker Studio dashboard presenting attendance, productivity, overtime, workforce, and leave insights | [View Dashboard](https://datastudio.google.com/reporting/ef773827-657e-4f0d-bcf9-c6d3325d0f47) |
 | Dashboard — Page 1 | Attendance and Productivity Overview | [View Page 1](https://github.com/SwastikaGhosal2040/Employee-Attendance-Login-Logout-Data-Bangalore/blob/main/3_Dashboards/Employee_Attendance_Dashboard_Page1.png) |
-| Dashboard — Page 2 | Shift, Overtime and Department Analysis | [View Page 2](PASTE_DASHBOARD_PAGE2_IMAGE_LINK_HERE) |
+| Dashboard — Page 2 | Shift, Overtime and Department Analysis | [View Page 2](https://github.com/SwastikaGhosal2040/Employee-Attendance-Login-Logout-Data-Bangalore/blob/main/3_Dashboards/Employee_Attendance_Dashboard_Page2.png) |
 | Dashboard — Page 3 | Leave and Department-Level Analysis | [View Page 3](PASTE_DASHBOARD_PAGE3_IMAGE_LINK_HERE) |
 
 
