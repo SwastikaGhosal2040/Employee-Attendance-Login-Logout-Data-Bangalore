@@ -53,17 +53,22 @@ The dataset contains employee information, attendance records, login and logout 
 
 ---
 
+
 ## File Details
 
 | Attribute | Details |
-|---|---|
-| **Raw Dataset** | [employee_attendance_bangalore_q1_2026.csv](https://docs.google.com/spreadsheets/d/1jT9biitZJI6d6yCA7TTaTouqdqY65MFXj076heiqV5U/edit?usp=sharing) |
-| **Cleaned Dataset** | [employee_attendance_dashboard_cleaned_new9.csv](https://docs.google.com/spreadsheets/d/1OeTd_wJds3kVfQUhpa9hTu1P_v3u-3dOFZSQnqTcY3A/edit?usp=sharing) |
-| **Google Colab — Data Cleaning** | [Employee Attendance Data Cleaning Notebook](https://colab.research.google.com/drive/1Mz_JOmS14CceyohfSwh79eqbe_-arH9D?usp=sharing) |
-| **Google Colab — Data Analysis** | [Employee Attendance Data Analysis Notebook](https://colab.research.google.com/drive/1OausWxHCzMGD6Le33BJ2RbxtAodRh2bI?usp=sharing) |
-| **Kaggle Notebook** | [Employee Attendance — Swastika Ghosal](https://www.kaggle.com/code/swastikaghosal/employee-attendance-swastika-ghosal) |
-| **GitHub Analysis Notebook** | [Employee_DataAnalysis.ipynb](https://github.com/SwastikaGhosal2040/Employee-Attendance-Login-Logout-Data-Bangalore/blob/main/2_Data_Analysis/Employee_DataAnalysis.ipynb) |
-| **Interactive Dashboard** | [Employee Attendance Analytics Dashboard](https://datastudio.google.com/reporting/ef773827-657e-4f0d-bcf9-c6d3325d0f47) |
+|------------|---------|
+| *Filename* | **[employee_attendance_dashboard_cleaned_new9.csv](PASTE_CLEANED_DATASET_LINK_HERE)** |
+| *Google Colab Notebook — Data Cleaning* | **[Employee Attendance Data Cleaning](PASTE_DATA_CLEANING_COLAB_LINK_HERE)** |
+| *Google Colab Notebook — Data Analysis* | **[Employee_DataAnalysis.ipynb](PASTE_DATA_ANALYSIS_COLAB_LINK_HERE)** |
+| *Kaggle Notebook* | **[Employee Attendance — Swastika Ghosal](PASTE_KAGGLE_NOTEBOOK_LINK_HERE)** |
+| *Total Records* | **55,374** |
+| *Unique Employees* | **980** |
+| *Primary Keys / Identifiers* | `attendance_id`, `employee_id` |
+| *Source of Data* | **[employee_attendance_bangalore_q1_2026.csv](PASTE_RAW_DATASET_LINK_HERE)** |
+| *Analysis Notebook (`.ipynb`)* | **[Employee_DataAnalysis.ipynb](PASTE_GITHUB_ANALYSIS_NOTEBOOK_LINK_HERE)** |
+| *Dashboard* | **[Employee Attendance Analytics Dashboard](PASTE_LOOKER_STUDIO_DASHBOARD_LINK_HERE)** |
+
 
 ---
 
