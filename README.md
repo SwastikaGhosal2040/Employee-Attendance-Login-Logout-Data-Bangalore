@@ -52,7 +52,6 @@ The project uses an Employee Attendance dataset covering Bangalore for Q1 2026.
 The dataset contains employee information, attendance records, login and logout timestamps, working hours, break duration, productive hours, late arrivals, early exits, overtime, work modes, shift types, and leave information.
 
 ---
-
 ## File Details
 
 | Attribute | Details |
